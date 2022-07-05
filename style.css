@@ -1,92 +1,119 @@
-span{
-    color: chocolate;
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-.blog-1 h1{
-   font-family: Montserrat; 
-   font-style: Bold;
-   font-size: 60px;
-   line-height: 78px;
-   letter-spacing: 0.6;
+span {
+  color: chocolate;
+}
+.blog-1 h1 {
+  font-family: Montserrat;
+  font-style: Bold;
+  font-size: 60px;
+  line-height: 78px;
+  letter-spacing: 0.6;
+}
+.blog-1 p {
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -2%;
+}
+.blog-1 {
+  margin-left: 170px;
+  margin-top: 250px;
+}
+button {
+  font-size: 30px;
+  margin-top: 15px;
+  border-radius: 30px;
+  background-color: coral;
+  outline: none;
+  border: none;
+  padding: 8px 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: aliceblue;
+  font-size: small;
+  letter-spacing: 0.6;
+}
+button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
 
+.top-banner {
+  display: flex;
 }
-.blog-1 p{
-    font-style: Medium;
-    font-size: 20px;
-    line-height: 32px;
-    letter-spacing: -2%;
+.second-banner {
+  display: flex;
+  background-image: url(images/Frame\ 57.jpg);
+  background-repeat: no-repeat;
 }
-.blog-1{
-    margin-left: 170px;
-    margin-top: 250px;
+.half-width {
+  width: 50%;
 }
-button{
-    font-size: 30px;
-    border-radius: 30px;
-    background-color: coral;
-    outline: none;
-    border: none;
-    padding: 8px 14px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: aliceblue;
-    font-size: small;
-    
+.half-width img {
+  width: 70%;
+  margin-left: 150px;
+  margin-top: 80px;
 }
-
-.top-banner{
-    display: flex;
-    
+.woman2-image {
+  width: 450px;
+  height: 400px;
+  margin-left: 200px;
+  margin-top: -98px;
 }
-.second-banner{
-    display: flex;
-    background-image: url(images/Frame\ 57.jpg);
-    background-repeat: no-repeat;
+.about-me {
+  font-size: 30px;
+  text-align: justify;
+  margin-top: 200px;
+  padding-bottom: 12px;
 }
-.half-width{
-    width: 50%;
+#contact-me {
+  margin-top: 20px;
 }
-.half-width img{
-    width: 70%;
-    margin-left: 150px;
-    margin-top: 80px;
-  
-   
+.move-my-recipies {
+  text-align: center;
+  font-size: 50px;
 }
-.woman2-image{
-        
-    width: 450px;
-    height: 536px;
-    margin-left: 200px;
-    margin-top: -38px;
-   
+.move-recipies-pragraph {
+  text-decoration: solid;
+  text-align: justify;
+  text-align: center;
+  font-size: medium;
 }
-.about-me{
-    font-size: 30px;
-    text-align: justify;
-    margin-top: 200px;
-    padding-bottom: 12px;
-    
+.all-recipies {
+  margin-top: 80px;
 }
-#contact-me{
-    margin-top: 20px;
+.flexible-my-recipies {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
 }
-.move-my-recipies{
-    text-align: center;
-    font-size: 50px;
+.half-width-1 {
+  width: 50%;
 }
-.move-recipies-pragraph{
-    text-decoration: solid;
-    text-align: justify;
-    text-align: center;
-    font-size: medium;
-    
+.food {
+  height: 400px;
+  width: 650px;
 }
-.all-recipies{
-    margin-top: 80px;
+.food-1 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  height: 530px;
+  width: 700px;
+  padding: 18px 25px;
+  border-radius: 15px;
 }
-.flexible-my-recipies{
-    display: flex;
+.recipie {
+  width: 100%;
 }
-.half-width-1{
-    width: 50%;
+.my-recipies {
+  width: 90%;
+  margin-right: auto;
+}
+.details {
+  margin-top: 18px;
 }
