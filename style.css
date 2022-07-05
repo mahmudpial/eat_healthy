@@ -70,3 +70,23 @@ button{
 #contact-me{
     margin-top: 20px;
 }
+.move-my-recipies{
+    text-align: center;
+    font-size: 50px;
+}
+.move-recipies-pragraph{
+    text-decoration: solid;
+    text-align: justify;
+    text-align: center;
+    font-size: medium;
+    
+}
+.all-recipies{
+    margin-top: 80px;
+}
+.flexible-my-recipies{
+    display: flex;
+}
+.half-width-1{
+    width: 50%;
+}
